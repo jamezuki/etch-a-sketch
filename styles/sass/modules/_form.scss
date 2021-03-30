@@ -1,0 +1,33 @@
+@use '../abstracts/variables' as *;
+
+form {
+    color: $color-2;
+    background: $color-1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    display: none;
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    box-shadow: 2px 2px 5px 1px #333;
+    text-align: center;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    label {
+        display: block;
+        margin: 10px auto;
+        font-size: 1.4rem;
+    }
+    input {
+        display: block;
+        width: 80px;
+        height: 40px;
+        margin: 10px auto;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    button {
+        margin: 10px;
+    }
+}

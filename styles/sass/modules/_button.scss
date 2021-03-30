@@ -1,0 +1,16 @@
+@use '../abstracts/variables' as *;
+
+button {
+    color: $color-2;
+    background: $button;
+    width: 100px;
+    height: $button-offset;
+    margin: 10px;
+    border: none;
+    border-radius: 5%;
+    font-size: 1.1rem;
+    font-weight: 600;
+    &:hover {
+        box-shadow: 1px 1px 5px #333;
+    }
+}

@@ -1,13 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
-
-$font-family: "Roboto Mono", monospace;
+$font-family: sans-serif;
 $root-font-size: 14px;
 
 $nav-offset: 30px;
+$button-offset: 40px;
+$grid-size: calc(100vh - #{$button-offset});
 
 $color-1: #333;
-$color-2: #bbb;
-$color-3: #ddd;
-$color-4: #eee;
-$strong: #940000;
-$anchor: #0395f0;
+$color-2: #eee;
+
+$button: #f61f1f;

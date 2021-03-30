@@ -1,18 +1,17 @@
-# Sass template
+# Etch-a-Sketch
+* Pass the pointer through a cell to fill the cell with a random color.
+* Pass the pointer again to darken the color.
 
-1. Install Sass if you haven't
-```
-npm install -g sass
-```
-2. Create package.json 
-```
-npm init
-```
-3. Add script to package.json
-```
-"sass": "sass --style=compressed --no-source-map --watch styles/sass/master.scss styles/master.css"
-```
-4. Compile with:
-```
-npm run sass
-```
+**[Live Project](https://jamezuki.github.io/etch-a-sketch/)**
+
+## Topics
+
+* DOM Manipulation
+* Data Atrributes
+* Event Listeners
+* Grid with JavaScript
+* Responsive Grid
+* Non refresh &lt;form&gt;
+
+## [The Odin Project](https://www.theodinproject.com)
+Foundations ➜ JavaScript Basics ➜ 10. Project: Etch-a-Sketch

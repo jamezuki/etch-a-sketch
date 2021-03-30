@@ -6,14 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/icon.png" type="image/png">
     <link rel="stylesheet" href="styles/master.css">
-    <title>Sass template</title>
+    <script src="scripts/script.js" defer></script>
+    <title>Etch-a-Sketch</title>
 </head>
 
 <body>
     <nav>
-        <a href="https://github.com/jamezuki/sass-template" target="_blank">GitHub</a>
+        <a href="https://github.com/jamezuki/etch-a-sketch" target="_blank">GitHub</a>
     </nav>
-
+    <button id="new-button">New Grid</button>
+    <div id="grid"></div>
+    <form onsubmit="return false;">
+        <label for="size">Squares per side<br>(1 - 100)</label>
+        <input type="number" name="size" value="1" min="1" max="100" required>
+        <button type="submit">Submit</button>
+        <button id="cancel-button">Cancel</button>
+    </form>
 </body>
 
 </html>
